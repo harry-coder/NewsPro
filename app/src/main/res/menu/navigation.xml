@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/news_Feed"
+        android:icon="@drawable/ic_description_black_24dp"
+        android:title="News Feeds" />
+
+    <item
+        android:id="@+id/buy"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Buy" />
+
+    <item
+        android:id="@+id/sell"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Sell" />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_face_black_24dp"
+        android:title="Account" />
+
+</menu>

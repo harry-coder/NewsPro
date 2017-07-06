@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        fab:fab_colorNormal="@android:color/white"
+        fab:fab_colorPressed="@android:color/black"
+        fab:fab_addButtonSize="mini"
+        fab:fab_addButtonPlusIconColor="@android:color/holo_blue_bright"
+        fab:fab_addButtonStrokeVisible="false"
+        fab:fab_expandDirection="left"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/black"
+            fab:fab_icon="@drawable/whatsapp"
+
+            android:id="@+id/whatsapp"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/black"
+            fab:fab_size="mini"
+            fab:fab_icon="@drawable/facebook"
+
+            android:id="@+id/facebook"
+            />
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</RelativeLayout>

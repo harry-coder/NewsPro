@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:id="@+id/commentScroll"
+
+
+    >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+       <!-- <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtubePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+           android:id="@+id/specific_title"
+            android:textColor="@android:color/black"
+            android:layout_margin="15dp"
+            android:textSize="17sp"
+            />
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relatedVideos"
+            android:layout_below="@+id/specific_title"
+
+            >
+
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/commentSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+
+            android:layout_below="@+id/relatedVideos">
+
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

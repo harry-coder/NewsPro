@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/categoryContainer2"
+    >
+
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:id="@+id/linear2"
+    >
+
+<TextView
+    android:id="@+id/heading"
+    android:layout_width="262dp"
+    android:layout_height="wrap_content"
+
+    android:background="?android:attr/selectableItemBackground"
+    android:text="TextView"
+
+   android:padding="10dp"
+android:layout_margin="15dp"
+
+    android:textSize="20sp" />
+
+<Switch
+    android:id="@+id/option"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_margin="10dp"
+    android:layout_weight="0.01"
+    android:theme="@style/ToggleSwitchTheme"
+
+    />
+
+
+</LinearLayout>
+    <View
+        android:layout_below="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="3dp"
+        android:background="#000"/>
+
+</RelativeLayout>

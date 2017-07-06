@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.harpreet.okhlee.youtube.relatedVideos"
+    android:background="@color/background_material_light"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Related Videos"
+        android:layout_marginStart="10dp"
+
+        android:textSize="15sp"
+        android:id="@+id/relatedVideosComment"
+
+        />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginEnd="10dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:layout_weight="0.8"
+        android:layout_toEndOf="@+id/relatedVideosComment" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relatedVideosComment"
+        android:id="@+id/relatedVideo"
+        android:nestedScrollingEnabled="false"
+
+        />
+</RelativeLayout>

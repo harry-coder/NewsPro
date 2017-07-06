@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "982944114308",
+    "firebase_url": "https://okhlee2.firebaseio.com",
+    "project_id": "okhlee2",
+    "storage_bucket": "okhlee2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982944114308:android:adfcc8876bdcdd8e",
+        "android_client_info": {
+          "package_name": "com.example.harpreet.okhlee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982944114308-pcftl9bd367h0u1jllhdccaikfmuopj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harpreet.okhlee",
+            "certificate_hash": "cebd73bf2e096c73d304d794880029eb1a9351a4"
+          }
+        },
+        {
+          "client_id": "982944114308-6a4ntii4r67fbh078ikc8sabunokhpt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmPApLsgEO1LCeLyjIGE0ri1Wk3ZIxqOs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982944114308-6a4ntii4r67fbh078ikc8sabunokhpt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

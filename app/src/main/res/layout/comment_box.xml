@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/commentBox"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+
+        android:background="@drawable/textview_shape"
+        android:hint="Speak Your Mind Out......"
+        android:inputType="textPersonName"
+
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/commentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginStart="5dp"
+        android:src="@drawable/sent1"
+        android:text="Fire"
+        android:textSize="15sp"
+
+        />
+</LinearLayout>

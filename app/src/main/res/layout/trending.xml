@@ -1,0 +1,29 @@
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flipboard"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.harpreet.okhlee.TabsFragments.trending">
+
+
+        <com.srx.widget.PullToLoadView
+            android:id="@+id/pullToLoadView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+        <!--<WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/youtubeView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />-->
+    </RelativeLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>
